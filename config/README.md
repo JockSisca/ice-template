@@ -1,0 +1,1 @@
+icework的配置项，会生成到.build.config文件夹中。可以通过npm run start:w对config进行动态监听，动态编译

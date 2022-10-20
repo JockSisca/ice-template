@@ -1,0 +1,8 @@
+{
+  "global": {
+    "scope": ":global",
+    "prefix": ":global",
+    "body": [":global"],
+    "description": "cssModule全局样式（不会自动添加后缀）"
+  }
+}

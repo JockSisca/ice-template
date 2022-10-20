@@ -1,0 +1,37 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": false,
+    "jsx": "react-jsx",
+    "importHelpers": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "target": "esnext",
+    "lib": ["es6", "dom", "dom.iterable", "esnext"],
+    "baseUrl": "./",
+    "rootDir": "./",
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types", "typings/**/*"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "ice": [".ice/index.ts"],
+      "ice/*": [".ice/pages/*"]
+    }
+  },
+  "include": ["src", ".ice", "config/**/*", "typings/**/*"],
+  "exclude": ["node_modules", "build", "public", "lib", "es", "dist", "**/__test__", "test", "docs", "tests", "src/lib"]
+}
