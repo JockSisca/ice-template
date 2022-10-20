@@ -3,6 +3,18 @@
 
 > A TypeScript simple template
 
+## 安装相关开发依赖
+
+```
+window:
+ctrl + shift + p
+mac:
+command + shift + p
+
+输入：
+Show Recommended Extensions
+```
+
 ## 使用
 
 ```bash
